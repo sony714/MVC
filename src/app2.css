@@ -1,0 +1,22 @@
+#app2 {
+ border: 1px solid springgreen;
+}
+
+#app2 .tabBar {
+  display: flex;
+}
+#app2 .tabBar li {
+ border: 2px solid black;
+ width: 50%;
+}
+
+#app2 .tabContent >li{
+  display:none;
+}
+#app2 .tabContent >li.active {
+    display: block;
+}
+#app2 .tabBar >li.selected{
+    background-color: brown;
+    color: white;
+}

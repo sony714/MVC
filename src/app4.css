@@ -1,0 +1,27 @@
+@keyframes changeColor {
+    0%{
+        background-color: teal;
+    }
+    25%{
+        background-color: thistle;
+    }
+    75%{
+        background-color: tomato;
+    }
+    100%{
+        background-color: yellowgreen;
+    }
+}
+
+#app4 .circle{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-left: 15vw;
+    margin-top: 2vw;
+    border: 1px solid red;
+}
+
+#app4 .circle.active{
+    animation: changeColor 1s infinite alternate linear;
+  }
